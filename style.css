@@ -1,0 +1,164 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+/* header section */
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 5vh;
+}
+.header img {
+    border-radius: 50%;
+    border: 2.5px double rgb(100, 0, 10);
+}
+.nav-menu a {
+    margin-left: 2vh;
+    font-size: 3.5vh;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.nav-menu a:hover {
+    color: rgb(100, 0, 10);
+    font-size: 4vh;
+}
+
+/* main section index.html */
+
+.intro {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+.intro img {
+    border-radius: 50%;
+    box-shadow: 4px 4px 2px rgb(100, 0, 10);
+}
+
+.intro h1 {
+    font-size: 8vh;
+    margin: 5vh;
+    text-shadow: 1px 1px 3px rgb(100, 0, 10);
+}
+
+.whoami {
+    margin-top: 10vh;
+    margin-bottom: 150px;
+    font-size: 4vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.whoami pre {
+    position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: 4;
+}
+
+@keyframes example {
+    0%   {color: rgb(100, 0, 10); left:0px; top:0px;}
+    25%  {color: rgb(0, 0, 0); left:50px; top:0px;}
+    50%  {color:rgb(100, 0, 10); left:50px; top:50px;}
+    75%  {color:rgb(0, 0, 0); left:0px; top:50px;}
+    100% {color:rgb(100, 0, 10); left:0px; top:0px;}
+  }
+
+/* main about.html */
+
+.greeting, .about {
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.greeting {
+    font-size: 3.5vh;
+    margin-bottom: 5vh;
+    text-shadow: 1px 1px 2px rgb(100, 0, 10);
+}
+
+.about {
+    font-size: 3vh;
+    width: 80%;
+    margin: auto;
+}
+
+.extra {
+    display: flex;
+    justify-content: space-around;
+    margin: 10vh;
+}
+
+.extra a {
+    color: rgb(100, 0, 10);
+    text-decoration: none;
+}
+
+.extra h2:hover {
+    color: rgb(0, 0, 0);
+    font-size: 3vh;
+}
+
+/* main portfolio.html */
+
+.proj1, .proj2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.proj1 h2 {
+    font-size: 6vh;
+}
+.proj2 h2 {
+    font-size: 6vh;
+}
+
+.proj1 img {
+    margin: 2vh 0;
+}
+
+.proj1 p {
+    font-size: 3vh;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.proj2 img {
+    margin: 2vh 0;
+}
+
+.proj2 p {
+    font-size: 3vh;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.proj a {
+    color: rgb(100, 0, 10);
+    border: 1px solid black;
+    text-decoration: none;
+    font-size: 3vh;
+    padding: 0.3vh;
+}
+.proj a:hover {
+    background-color: rgb(100, 0, 10);
+    color: rgb(255, 255, 255);
+}
+
+
+/* footer */
+
+.footer {  
+    width: 100%;
+    text-align: center;
+    padding: 2vh;
+    background-color: rgb(100, 0, 10);
+    color: rgb(255, 255, 255);
+}
+.footer a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+
