@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
 * {
     margin:0;
     padding:0;
@@ -152,7 +153,6 @@
 .footer {  
     width: 100%;
     text-align: center;
-    padding: 2vh;
     background-color: rgb(100, 0, 10);
     color: rgb(255, 255, 255);
 }
@@ -162,3 +162,132 @@
 }
 
 
+/* Contact.html */
+
+
+
+.form-div {
+    width: 40%;
+    margin: auto;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    font-family: 'Mooli', sans-serif;
+    color: wheat;
+    margin-bottom: 100px;
+}
+
+
+.form-div form {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(100, 0, 10);
+    padding: 1rem;
+    box-shadow: 2px 2px 3px wheat;
+    border-radius: 2%;
+}
+
+.form-div form label {
+    font-size: 2.8vh;
+    margin: 1vh 0;
+}
+
+.form-div form input:not([type="submit"]) {
+    padding: 6px;
+}
+
+textarea {
+    margin-bottom: 2vh;
+    padding: 6px;
+}
+
+.btn {
+    width: 10vw;
+    margin: auto;
+    background-color: rgb(0, 0, 0);
+    color: wheat;
+}
+
+.btn:hover {
+    background-color: wheat;
+    color: rgb(100, 0, 10);
+}
+
+@media screen and (max-width: 992px) and (min-width: 760px) {
+
+    /* Contact.html */
+    .form-div {
+        width: 50%;
+    }
+
+    /* index.html main */
+    .intro h1 {
+        font-size: 5vh;
+        margin: 3vh;
+    }
+    
+    .whoami {
+        margin-bottom: 100px;
+        font-size: 3vh;
+    }
+
+    /* about.html */
+    .about {
+        font-size: 3vh;
+    }
+    .website img {
+        width: 200px !important;
+        height: 125px !important;
+    }
+    .youtube img {
+        width: 200px !important;
+        height: 60px !important;
+    }
+    .extra {
+        margin-bottom: 15vh;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    
+    /* Contact.html */
+    .form-div {
+        width: 80%;
+    }
+
+    /* index.html */
+    .intro h1 {
+        font-size: 4vh;
+        margin: 3vh;
+    }
+    
+    .whoami {
+        margin-bottom: 100px;
+        margin-left: -100px;
+        font-size: 2.5vh;
+    }
+
+    /* about.html */
+
+    .greeting {
+        font-size: 3.5vh;
+    }
+    
+    .about {
+        font-size: 2.5vh;
+    }
+    .website img {
+        width: 200px !important;
+        height: 125px !important;
+    }
+    .youtube img {
+        width: 200px !important;
+        height: 60px !important;
+    }
+    .extra {
+        margin-bottom: 15vh;
+    }
+
+}
